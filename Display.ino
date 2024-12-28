@@ -30,18 +30,6 @@ const char* password = "VotreMotDePasse";
 WebServer server(80);
 bool ledMatrix[8][8] = {0};
 
-// Rectangle pattern (1 means LED on, 0 means LED off)
-/*const byte rectangle[8][8] = {
-  {1, 1, 1, 1, 1, 1, 0, 0},
-  {1, 0, 0, 0, 0, 1, 0, 0},
-  {1, 0, 0, 0, 0, 1, 0, 0},
-  {1, 0, 0, 0, 0, 1, 0, 0},
-  {1, 0, 0, 0, 0, 1, 0, 0},
-  {1, 1, 1, 1, 1, 1, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0},
-  {0, 0, 0, 0, 0, 0, 0, 0}
-};*/
-
 //Page html
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML>
