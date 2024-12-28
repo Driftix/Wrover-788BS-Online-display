@@ -24,8 +24,8 @@
 const int row_pins[8] = {ROW_1, ROW_2, ROW_3, ROW_4, ROW_5, ROW_6, ROW_7, ROW_8};
 const int col_pins[8] = {COL_1, COL_2, COL_3, COL_4, COL_5, COL_6, COL_7, COL_8};
 
-const char* ssid = "ARRIS-EC79";
-const char* password = "nWajbPtXgJiL";
+const char* ssid = "VotreSSID";
+const char* password = "VotreMotDePasse";
 
 WebServer server(80);
 bool ledMatrix[8][8] = {0};

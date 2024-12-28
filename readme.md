@@ -27,6 +27,10 @@ Ce projet permet de contrôler une matrice LED 788BS 8x8 via une interface web h
 ### Exemple de branchement avec un arduino
 
 ![Exemple arduino](/images/ExempleSchema.png)
+
+### Le rendu final
+![Rendu final](/images/IMG_20241228_120802.jpg)
+
 ⚠️ **Important** : 
 - Chaque broche de colonne (COL) doit être connectée via une résistance de 220Ω
 - Les broches de ligne (ROW) sont connectées directement
@@ -68,7 +72,11 @@ const char* password = "VotreMotDePasse";
 5. Utilisez l'interface pour :
    - Cliquer sur les cases pour créer votre motif
    - Cliquer sur "Envoyer à la matrice" pour l'afficher
+### Affichage web
+![Affichage web](/images/webresult.png)
 
+### Résultat
+![Résultat](/images/ezgif-6-6d71266170.gif)
 ## 🔍 Dépannage
 
 ### La matrice ne s'allume pas
